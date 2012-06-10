@@ -1,0 +1,202 @@
+/* h selectors */
+h1 {
+	font-size: 2.5em;
+}
+
+
+body {
+	background: url('../images/bg.jpg');
+	margin: 0 0;
+}
+
+.pageHeader {
+	background: url('../images/header-bg.jpg');
+	height: 81px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.wrapper {
+	width: 850px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.logo {
+	margin-top: 28px;
+	margin-left: 18px;
+}
+
+a {
+	color: #b4b5b6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b4b5b6;
+}
+
+a:visited {
+	color: #b4b5b6;
+}
+
+nav {
+	float: right;
+	width: 450px;
+	padding: 0 0.7em;
+	margin-top: 28px;
+}
+
+nav ul {
+	margin: 0 0;
+	padding: 0 0;
+	width: 350px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0.2em 0;
+	font-color: #b4b5b6;
+	text-shadow: 0px -1px 1px #000;
+	float: left;
+	font-weight: bold;
+}
+
+nav ul li a {
+	padding-right: 25px;
+}
+
+nav ul li a:visited {
+
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+.nav-icon{
+	margin-right: 5px;
+	margin-bottom: -7px;
+}
+
+.search-container {
+	background: #3a4047;
+	width: 140px;
+	height: 25px;
+	float: left;
+	display: block;
+    box-shadow: 0px -2px 1px #212429, 0 1px 1px #6a6d74;
+}
+
+.search-container:focus {
+box-shadow: 0px -2px 1px #212429, 0 1px 1px #6a6d74;
+}
+
+.search-wrap {
+	width: 450px;
+}
+.right-round {
+	border-radius: 0px 16px 16px 0px;
+}
+
+.left-round {
+	border-radius: 16px 0px 0px 16px;
+}
+
+
+.search-img{
+	margin: 5px 0 0 5px;
+}
+
+.search-img-bg {
+	background: #3a4047;
+	width: 25px;
+	height: 27px;
+	float: left;
+	display: block;
+	box-shadow: 0px -2px 1px #212429, 0 1px 1px #6a6d74;
+}
+
+.left-content {
+	width: 500px;
+	margin-top: 68px;
+	float: left;
+}
+
+.right-content {
+	width: 350px;
+	margin-top: 5px;
+	float: left;
+}
+
+.form-header {
+		
+}
+
+.form-header h1 {
+	color: rgb(126, 126, 126);
+	font-weight: bold;
+}
+
+#myForm {
+	margin-top: 15px;
+}
+
+.iphone {
+	width: 325px;
+	height: 628px;
+	float:left;
+}
+
+/* Video Tutorials Platform */
+
+.tutorials {
+	width: inherit;
+	margin-top: -180px;
+	float: left;
+}
+
+.tutorials ul {
+	margin:0 auto;
+	width: inherit;
+	float: left;
+}
+
+.tutorials ul li {
+	list-style: none;
+	width: 133px;
+	height: 112px;
+	float: left;
+	display: inline;
+	padding-right: 30px;
+}
+
+.tuts h4 {
+	text-align: center;
+	color: rgb(126,126,126);
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+}
+.tuts-shadow {
+	width: 143px;
+	height: 18px;
+}
+ul, ol {
+    margin: 0 0em 0em 0;
+    padding-left: 0em;
+}
+/* Footer */
+
+.upper-platform {
+	background-image: url("../images/platform-bg.jpg");
+	height: 94px;
+	margin-top: -75px;
+}
+
+footer {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
