@@ -1,90 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>Mobile Real Estate | Home</title>
-		<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
-		<%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
-		<%= stylesheet_link_tag 'bootstrap-forms', :media => 'screen'%>
-		<%= stylesheet_link_tag 'custom', :media => 'screen' %>	
-	</head>
-<body>
-	<header class="pageHeader">
-		<%= image_tag("logo.png", :alt => "MREA Home", :class => "logo")%>
-		<nav>
-			<ul>
-				<li><%= image_tag("../images/help.png", :alt => "search", :class => "nav-icon" )%><%= link_to "Help" %></li>
-				<li><%= image_tag("../images/log-in.png", :alt => "log in", :class => "nav-icon" )%><%= link_to "Log in" %></li>
-				<li><%= image_tag("../images/register.jpg", :alt => "register", :class => "nav-icon" )%><%= link_to "Sign Up" %></li>
-				<div class="search-wrap">
-					<div class="search-img-bg left-round">
-						<%= image_tag("../images/search_img.jpg", :alt => "search", :class => "search-img" )%>
-					</div><!-- search-img-bg left-round -->
-					<input name="search" type="text" class="search-container input right-round" style="margin: 0em 0; color: gray; background: #3a4047; border: none;" placeholder="search">
-				</div><!-- end search-wrap -->
-			</ul>
-		</nav>
-	</header>
-	<div class="wrapper">
-		<div class="left-content">
-			<header class="form-header">
-				<h1>Free Mobile Real Estate Website</h1>
-				<span><%= image_tag("../images/hr.png", :alt => "", :class => "line-break.png")%></span>
-			</header>
-			<form name="myForm" method="post" action="#" id="myForm">
-				<div class="clearfix">
-					<label for="companyName">Company Name:</label>
-					<div class="input">
-						<input type="text" class="companyName" size="medium" name="companyName" required>
-					</div><!-- end input -->
-				</div><!-- end clearfix -->
-				<div class="clearfix">
-					<label for="yourLogo">Your Logo:</label>
-					<div class="input">
-						<input type="file" id="yourLogo" size="medium" name="yourLogo" required>
-					</div><!-- end input -->
-				</div><!-- end clearfix -->
-				<div class="clearfix">
-					<label for="profilePic">Profile Pic:</label>
-					<div class="input">
-						<input type="file" class="profilePic" size="medium" name="profilePic">
-					</div><!-- end input -->
-				</div><!-- end clearfix -->
-				<div class="clearfix">
-					<label for="yourName">Your Name:</label>
-					<div class="input">
-						<input type="text" class="yourName" size="medium" name="yourName" required>
-					</div><!-- end input -->
-				</div><!-- end clearfix -->
-				<div class="clearfix">
-					<label for="email">Your Email:</label>
-					<div class="input">
-						<input type="email" class="email" size="medium" email="email" required>
-					</div><!-- end input -->
-				</div><!-- end clearfix -->
-				<div class="clearfix">
-					<label for="aboutYou">About You:</label>
-					<div class="input">
-						<input type="textarea" class="aboutYou" size="medium" name="aboutYou">
-					</div><!-- end input -->
-				</div><!-- end clearfix -->
-			<button name="formButton" class="formButton" type="submit">Submit</button>
-			</form><!-- end form -->
-		</div><!-- left-content -->
-		<div class="right-content">
-			<%= image_tag("../images/iphone.png", :alt => "search", :class => "search-img" )%>
-		</div><!-- end right-content -->
-		<div class="clearfix"></div>
-			<div class="tutorials">
-				<ul class="tuts">
-					<li><h4>Getting Started</h5><%= image_tag("../images/tut.jpg", :alt => "How to Tutorials", :class => "tuts-imgs")%><span><%= image_tag("../images/tuts-shadow.png", :alt => "", :class => "tuts-shadow")%></span></li>
-					<li><h4>Add a Listing</h5><%= image_tag("../images/tut.jpg", :alt => "How to Tutorials", :class => "tuts-imgs")%><span><%= image_tag("../images/tuts-shadow.png", :alt => "", :class => "tuts-shadow")%></span></li>
-					<li><h4>Download Qr Code</h5><%= image_tag("../images/tut.jpg", :alt => "How to Tutorials", :class => "tuts-imgs")%><span><%= image_tag("../images/tuts-shadow.png", :alt => "", :class => "tuts-shadow")%></span></li>
-				</ul><!-- end tuts -->
-			</div><!-- end tutorials -->
-	</div><!-- wrapper end -->
-	<div class="upper-platform">
-	</div><!-- end upper-platform -->
-	<footer>&copy MobileRealEstateApp</footer>
-</body><!-- end body -->
-</html>
+<div class="wrapper">
+	<div class="left-content">
+		<header class="form-header">
+			<h1>Free Mobile Real Estate Website</h1>
+			<span><%= image_tag("../images/hr.png", :alt => "", :class => "line-break.png")%></span>
+		</header>
+		<form name="myForm" method="post" action="#" id="myForm">
+			<div class="clearfix">
+				<label for="companyName">Company Name:</label>
+				<div class="input">
+					<input type="text" class="companyName" size="medium" name="companyName" required>
+				</div><!-- end input -->
+			</div><!-- end clearfix -->
+			<div class="clearfix">
+				<label for="yourLogo">Your Logo:</label>
+				<div class="input">
+					<input type="file" id="yourLogo" size="medium" name="yourLogo" required>
+				</div><!-- end input -->
+			</div><!-- end clearfix -->
+			<div class="clearfix">
+				<label for="profilePic">Profile Pic:</label>
+				<div class="input">
+					<input type="file" class="profilePic" size="medium" name="profilePic">
+				</div><!-- end input -->
+			</div><!-- end clearfix -->
+			<div class="clearfix">
+				<label for="yourName">Your Name:</label>
+				<div class="input">
+					<input type="text" class="yourName" size="medium" name="yourName" required>
+				</div><!-- end input -->
+			</div><!-- end clearfix -->
+			<div class="clearfix">
+				<label for="email">Your Email:</label>
+				<div class="input">
+					<input type="email" class="email" size="medium" email="email" required>
+				</div><!-- end input -->
+			</div><!-- end clearfix -->
+			<div class="clearfix">
+				<label for="aboutYou">About You:</label>
+				<div class="input">
+					<input type="textarea" class="aboutYou" size="medium" name="aboutYou">
+				</div><!-- end input -->
+			</div><!-- end clearfix -->
+		<button name="formButton" class="formButton" type="submit">Submit</button>
+		</form><!-- end form -->
+	</div><!-- left-content -->
+	<div class="right-content">
+		<%= image_tag("../images/iphone.png", :alt => "search", :class => "search-img" )%>
+	</div><!-- end right-content -->
+	<div class="clearfix"></div>
+		<div class="tutorials">
+			<ul class="tuts">
+				<li><h4>Getting Started</h5><%= image_tag("../images/tut.jpg", :alt => "How to Tutorials", :class => "tuts-imgs")%><span><%= image_tag("../images/tuts-shadow.png", :alt => "", :class => "tuts-shadow")%></span></li>
+				<li><h4>Add a Listing</h5><%= image_tag("../images/tut.jpg", :alt => "How to Tutorials", :class => "tuts-imgs")%><span><%= image_tag("../images/tuts-shadow.png", :alt => "", :class => "tuts-shadow")%></span></li>
+				<li><h4>Download Qr Code</h5><%= image_tag("../images/tut.jpg", :alt => "How to Tutorials", :class => "tuts-imgs")%><span><%= image_tag("../images/tuts-shadow.png", :alt => "", :class => "tuts-shadow")%></span></li>
+			</ul><!-- end tuts -->
+		</div><!-- end tutorials -->
+</div><!-- wrapper end -->
+<div class="upper-platform">
+</div><!-- end upper-platform -->
+
