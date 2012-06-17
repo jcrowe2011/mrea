@@ -13,3 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+
+$(document).ready(function(){
+	$('#profile-link').click(function() {
+		$('#content').show();
+		return false;
+	});	
+	$('#profile-link').click(function() {
+		$('#content').show();
+		return false;
+	});
+});

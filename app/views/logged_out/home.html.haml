@@ -1,0 +1,53 @@
+.wrapper
+	.left-content
+		%header.form-header
+			%h1 Free Mobile Real Estate Website
+			%span 
+				%img.line-break.png{:src => image_path("hr.png")}
+			%form{:name => "myForm", :method => "post", :action => "#", :id => "myForm"}
+				.clearfix
+					%label{:for => "companyName"} Company Name:
+					.input
+						%input{:type => "text", :class => "companyName", :size => "medium", :name => "companyName"}
+				.clearfix
+					%label{:for => "yourLogo"} Your Logo:
+					.input
+						%input{:type => "file", :id => "yourLogo", :size => "medium", :name => "yourLogo"}
+				.clearfix
+					%label{:for => "profilePic"} Profile Pic:
+					.input
+						%input{:type => "file", :class => "profilePic", :size => "medium", :name => "profilePic"}
+				.clearfix
+					%label{:for => "yourName"} Your Name:
+					.input
+						%input{:type => "text", :class => "yourName", :size => "medium", :name => "yourName"}
+				.clearfix
+					%label{:for => "email"} Your Email:
+					.input
+						%input{:type => "email", :class => "email", :size => "medium", :email => "email"}
+				.clearfix
+					%label{:for => "email"} Your Email:
+					.input
+						%input{:type => "email", :class => "email", :size => "medium", :email => "email"}
+				.clearfix
+					%input{:type => "submit", :value => "Send", :class => "button"}
+	.right-content
+		%img.search-img{:src => image_path('iphone.png')}
+	.clearfix
+		.tutorials
+			%ul.tuts
+				%li
+					%h4Getting Started
+					%img.tuts-imgs{:src => image_path("tut.jpg")}
+					%img.tuts-shadow{:src => image_path("tuts-shadow.png")}
+				%li
+					%h4Getting Started
+					%img.tuts-imgs{:src => image_path("tut.jpg")}
+					%img.tuts-shadow{:src => image_path("tuts-shadow.png")}					
+				%li
+					%h4Getting Started
+					%img.tuts-imgs{:src => image_path("tut.jpg")}
+					%img.tuts-shadow{:src => image_path("tuts-shadow.png")}
+.upper-platform
+
+

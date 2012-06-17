@@ -1,0 +1,15 @@
+%nav
+	%ul
+		%li
+			%img.nav-icon{:src => image_path("help.png")}
+				= link_to 'Help', "path_home" 			
+		%li 
+			%img.nav-icon{:src => image_path("log-in.jpg")}
+				= link_to 'Sign Up', "path_sign-up"
+		%li 
+			%img.nav-icon{:src => image_path("register.jpg")}
+				= link_to 'Log In', "path_log-in"
+		.search-wrap
+			.search-img-bg.left-round
+				%img.search-img{:src => image_path("search_img.jpg")}
+			%input{:name => "search", :type => "text", :class => "search-container input right-round", :style => "margin: 0em 0; color: gray; background: #3a4047; border: none;", :placeholder => "search"}
