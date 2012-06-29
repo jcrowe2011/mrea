@@ -3,10 +3,9 @@
 	%head
 		%title= title
 		= csrf_meta_tag
-		= render 'layouts/stylesheets'
+		= render 'layouts/stylesheets' 
 	%body
 		= render 'layouts/header'
 		= yield 
-		=render 'layouts/footer'
-		
+		= render 'layouts/footer'
 

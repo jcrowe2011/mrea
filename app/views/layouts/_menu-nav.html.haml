@@ -2,13 +2,13 @@
 	%ul
 		%li
 			%img.nav-icon{:src => image_path("help.png")}
-				= link_to 'Help', "path_home" 			
+				= link_to 'Help', "/" 			
 		%li 
 			%img.nav-icon{:src => image_path("log-in.jpg")}
-				= link_to 'Sign Up', "path_sign-up"
+				= link_to "Sign Up", 'signup'
 		%li 
 			%img.nav-icon{:src => image_path("register.jpg")}
-				= link_to 'Log In', "path_log-in"
+				= link_to 'Log In', "log-in"
 		.search-wrap
 			.search-img-bg.left-round
 				%img.search-img{:src => image_path("search_img.jpg")}

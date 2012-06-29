@@ -1,10 +1,14 @@
 class LoggedInController < ApplicationController
   
-  def profile
-    @title = ""
+  def dashboard
+     @title = "Dashboard"
   end
   
-  def dashboard
-    @title = "Dashboard"
+  def profile
+    @title = "Profile"
+  end
+  
+  def listings
+    @title = "Listings"
   end
 end
