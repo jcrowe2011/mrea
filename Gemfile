@@ -66,7 +66,7 @@ group :test, :development do
 end
 
 group :development do
-  #gem 'sqlite3'
+  gem 'sqlite3'
   gem 'haml-rails'
   gem 'faker'
 end
